@@ -7,13 +7,13 @@ class PersonaJuridica
 	private $correo;
 	private $sexo;
 
-	public function __GET($x)
+	public function __GET($nombres)
 	{
-		return $this->$x;
+		return $this->$nombres;
 	}
-	public function __SET($x, $y)
+	public function __SET($nombres, $correo)
 	{
-		return $this->$x = $y;
+		return $this->$nombres = $correo;
 	}
 }
 ?>
