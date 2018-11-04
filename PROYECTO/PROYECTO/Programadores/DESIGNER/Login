@@ -53,7 +53,7 @@ window.location="fut.html";
 if (usuario=="antoni" && password=="23456") {
 window.location="fut.html";
 }
-if (usuario=="" && password=="") { 
+if (usuario=="" && password=="") {
 window.location="errorpopup.html";
 }
 }
