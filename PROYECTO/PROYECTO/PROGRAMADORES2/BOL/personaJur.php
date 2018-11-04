@@ -3,11 +3,9 @@ class PersonaJuridica
 {
 	private $id;
 	private $nombres;
-	private $apellido;
 	private $Ruc;
 	private $correo;
 	private $sexo;
-	private $telefono;
 
 	public function __GET($nombres)
 	{
