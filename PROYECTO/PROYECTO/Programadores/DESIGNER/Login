@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login para varios usuario</title>
+<link rel="stylesheet" href="css/login.css"  type="text/css" />
+</head>
+
+<body class="fondo" style="background-image:url(imagen/login.jpg);">
+<div class="container">
+        <p class="text-center" style="margin-top: 17px;">
+
+       </p>
+<center>
+<h1>Ingrese su usuario
+</h1>
+</center>
+<form name="login">
+       <tr>
+          <th scope="row">
+          <h2>Usuario</h2></th>
+         <td><span class="cnt">
+           <input name="usuario" type="text" class="Input" value="" size="20" />
+
+         </span></td>
+       </tr>
+       <tr>
+         <th height="33" scope="row"><h2>Clave</h2></th>
+         <td>      <span class="cnt">
+           <input name="password" type="password" class="Input" value="" size="20" />
+         </span></td>
+<br>
+<br>
+         <td>
+         <span class="cnt">
+
+           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/>
+         </span></td>
+       </tr>
+       <tr>
+         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th>
+       </tr>
+
+</form>
+</div>
+<script language="JavaScript">
+ function Login(){
+var done=0;
+var usuario=document.login.usuario.value;
+var password=document.login.password.value;
+if (usuario=="mar" && password=="12345") {
+window.location="fut.html";
+}
+if (usuario=="antoni" && password=="23456") {
+window.location="fut.html";
+}
+if (usuario=="" && password=="") { 
+window.location="errorpopup.html";
+}
+}
+        </script>
+</center>
+</body>
+</html>
