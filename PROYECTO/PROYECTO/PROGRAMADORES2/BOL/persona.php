@@ -7,11 +7,9 @@ class Persona
   private $direccion;
   private $sexo;
   private $dni;
-  private $edad;
   private $correo;
   private $nacionalidad;
-  private $ocupacion;
-  private $celular;
+  private $telefono;
 
   public function __GET($nombres)
   {
