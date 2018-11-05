@@ -15,9 +15,9 @@ class Persona
   {
     return $this->$nombres;
   }
-  public function __SET($nombres,$nacionalidad)
+  public function __SET($nombres,$apellidos)
   {
-    return $this->$nombres = $nacionalidad;
+    return $this->$nombres = $apellidos;
   }
 }
 
