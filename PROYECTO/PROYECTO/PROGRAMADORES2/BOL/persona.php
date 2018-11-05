@@ -7,19 +7,17 @@ class Persona
   private $direccion;
   private $sexo;
   private $dni;
-  private $edad;
   private $correo;
   private $nacionalidad;
-  private $ocupacion;
-  private $celular;
+  private $telefono;
 
   public function __GET($nombres)
   {
     return $this->$nombres;
   }
-  public function __SET($nombres,$nacionalidad)
+  public function __SET($nombres,$apellidos)
   {
-    return $this->$nombres = $nacionalidad;
+    return $this->$nombres = $apellidos;
   }
 }
 
