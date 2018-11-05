@@ -13,3 +13,10 @@ body .acciones{
   text-align: left;
   margin-left: 80px;
 }
+body .po{
+  margin-left: 80px;
+}
+table , td , th {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+}
