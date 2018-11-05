@@ -1,0 +1,25 @@
+.container{
+          color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          background-color: rgba(30,54,67,80);
+          position: absolute;
+          position: relative;
+          top: 40%;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, 50%);
+          -webkit-transform: translate(-50%, 50%);
+          -ms-transform: translate(-50%, -50%);
+
+}
+.fondo{
+    background-attachment: fixed;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5;
+    padding: 5;
+    width: 100%;
+}

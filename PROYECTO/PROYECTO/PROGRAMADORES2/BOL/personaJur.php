@@ -3,7 +3,6 @@ class PersonaJuridica
 {
 	private $id;
 	private $nombres;
-	private $apellidos;
 	private $Ruc;
 	private $correo;
 	private $sexo;
