@@ -5,13 +5,13 @@ class Resultado
   private $Fecha;
   private $CodigoDoc;
 
-  public function __GET($nombres)
+  public function __GET($id)
   {
-    return $this->$nombres;
+    return $this->$id;
   }
-  public function __SET($nombres,$apellidos)
+  public function __SET($id,$CodigoDoc)
   {
-    return $this->$nombres = $apellidos;
+    return $this->$id = $CodigoDoc;
   }
 }
 
