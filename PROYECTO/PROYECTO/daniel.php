@@ -1,10 +1,10 @@
 <?php
 class PersonaNatural
 {
-	private $codigo;
+	private $id;
 	private $codigoDoc;
-	private $dni;
-	private $estado;
+	private $idpersona;
+	
 
 
 	public function __GET($codigo)
