@@ -18,3 +18,21 @@ time, mark, audio, video {
 		font: inherit;
 		vertical-align: baseline;
 	}
+	@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeueRegular.eot');
+    src: url('fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+         url('fonts/BebasNeueRegular.woff2') format('woff2'),
+         url('fonts/BebasNeueRegular.woff') format('woff'),
+         url('fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('fonts/BebasNeueBook.eot');
+    src: url('fonts/BebasNeueBook.eot') format('embedded-opentype'),
+         url('fonts/BebasNeueBook.woff2') format('woff2'),
+         url('fonts/BebasNeueBook.woff') format('woff'),
+         url('fonts/BebasNeueBook.ttf') format('truetype'),
+         url('fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
+}
