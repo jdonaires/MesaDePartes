@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <link rel="stylesheet" href="../css/login.css" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Login para varios usuario</title>
+<title> Login Para Mesa de Partes </title>
 </head>
 
-<body class="fondo" style="background-color";>
-<center><h1>INGRESAR LOS DATOS</h1></center>
-<form name="login">
-     <table width="200" border="0">
-       <tr>
-         <th scope="row"><h2>Usuario</h2></th>
-         <br><td><span class="cnt"></br>
-           <input name="usuario" type="text" class="Input" value="" size="20" />
-         </span></td>
-       </tr>
-       <tr>
-         <center><th height="33" scope="row"><h2>Clave</h2></th></center>
-         <br><td><span class="cnt"></br>
-           <input name="password" type="password" class="Input" value="" size="20" />
-               </span></td>
-         <td><span class="cnt">
-             <br><input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/></br>
-         </span></td>
-       </tr>
-       <tr>
-         <th scope="row"><input type="reset" name="Borrar"id="Borrar" value="Reset" class="boton" /></th>
-       </tr>
-     </table>
+<body  >
+<center><h2>"INGRESAR DATOS"</h2></center>
+<form  method="post" action="" name="login">
+     <div class="formulario">
+       <table >
+      <tr>
+
+        <th><input name="usuario"  id ="fusuario" type="text" class="Input" value="" size="0" placeholder="USUARIO"/></th>
+      </tr>
+      <tr>
+        <td><input name="password" type="password" id="fclave" class="Input" value="" size="20" placeholder="CONTRASEÑA"/></td>
+      </tr>
+      <tr>
+        <td><input name="ingresar" type="submit" id="fbutton" class="Input" value="LOGIN" size="20" style="width:100%"/></td>
+      </tr>
+
+    </table>
+  </div>
 </form>
 </center>
 <script language="Javascript">
