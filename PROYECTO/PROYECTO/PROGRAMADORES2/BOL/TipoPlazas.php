@@ -3,6 +3,7 @@ class TipoPlazas
 {
 	private $id;
 	private $Tipo;
+	private $Tipo3;
 
 	public function __GET($Tipo)
 	{
