@@ -1,0 +1,19 @@
+<?php
+class HojaRuta
+{
+	private $Id;
+	private $Acciones;
+  private $Remitente;
+  private $Estado;
+  private $NExpediente;
+
+	public function __GET($x)
+	{
+		return $this->$x;
+	}
+  public function __SET($x, $y)
+  	{
+  		return $this->$x = $y;
+  	}
+  }
+  ?>
