@@ -8,13 +8,13 @@ class RegistroExpedientes
   private $CodigoDoc;
 
 
-	public function __GET($codigo)
+	public function __GET($id)
 	{
-		return $this->$codigo;
+		return $this->$id;
 	}
-	public function __SET($codigo, $codigoDoc)
+	public function __SET($id, $fecha)
 	{
-		return $this->$codigo = $codigoDoc;
+		return $this->$id= $fecha;
 	}
 }
 ?>
