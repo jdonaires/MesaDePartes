@@ -5,13 +5,13 @@ class area
 	private $Area;
 
 
-  public function __GET($x)
+  public function __GET($id)
 	{
-		return $this->$x;
+		return $this->$id;
 	}
-	public function __SET($x, $y)
+	public function __SET($id, $Area)
 	{
-		return $this->$x = $y;
+		return $this->$id = $Area;
 	}
 }
 ?>
