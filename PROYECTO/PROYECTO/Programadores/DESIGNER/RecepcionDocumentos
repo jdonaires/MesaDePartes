@@ -5,6 +5,134 @@
     <title></title>
   </head>
   <body>
+    <table>
+        <tbody>
+        </tr>
+        <tr>
+          <td>N°</td>
+          <td>N° de expediente</td>
+          <td>Fecha DD/MM/AA</td>
+          <td>Apellidos y nombres/Razón Social</td>
+          <td>DNI/RUC</td>
+          <td>Documento informativo/solicitud</td>
+          <td>Asunto</td>
+          <td>Folios</td>
+          <td>Fecha de Derivacion</td>
+          <td>Área a la que se deriva el documento</td>
+          <td>Estado</td>
+          <td>Fecha de entrega al tramitante DD/MM/AAAA</td>
+          <td>Observaciones</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3" disabled></td>
+          <td><input type="text" name="" size="8" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="20" disabled></td>
+          <td><input type="text" name="" size="7" disabled></td>
+          <td><input type="text" name="" size="14" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+          <td><input type="text" name="" size="12" disabled></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" size="3"></td>
+          <td><input type="text" name="" size="8"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="20"></td>
+          <td><input type="text" name="" size="7"></td>
+          <td><input type="text" name="" size="14"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+          <td><input type="text" name="" size="12"></td>
+        </tr>
+
+        </tbody>
+        </table>
+
+
       <?php
           echo "HOLA QUE HACES";
       ?>
