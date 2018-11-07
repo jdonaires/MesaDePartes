@@ -36,3 +36,13 @@ time, mark, audio, video {
          url('fonts/BebasNeueBook.ttf') format('truetype'),
          url('fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
 }
+
+
+#afr-wrapper{
+	/*background:#E1F0FF;*/
+	/*background: url(../img/bg2.jpg) no-repeat left center fixed;*/
+	position:relative;
+	overflow:auto;
+	font-family:"BebasNeueRegular";
+	font-size:16px;;
+}
