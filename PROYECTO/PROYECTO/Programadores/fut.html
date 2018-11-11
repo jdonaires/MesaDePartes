@@ -15,7 +15,11 @@
 <!-- XIOMARA -->
 
 
-
+<div id="afr-bgcontaniner">
+            <div id="afr-container">
+            	<div id="afr-contform">
+                                	<form id="afr-frmfut" name="afr-frmfut" x method="post" enctype="multipart/form-data" class="form-horizontal">
+                    	<input type="hidden" name="txtdependencia" id="txtdependencia">
 
 
 
@@ -24,7 +28,12 @@
 
 
 <!-- Daniel -->
+<div class="panel panel-default">
+          <div class="panel-body">
 
+          <div class="row" >
+             <div class="col-xs-12 col-md-12" style="font-size:22px">FORMULARIO UNICO DE TRAMITE (FUT)</div></div>
+          </div>
 
 
 
@@ -57,6 +66,22 @@
 
 
 <!-- Napan -->
+<option value="">-- Seleccione solicitud --</option>
+              	<option value="2">Por razones de salud</option>
+<option value="3">Por interes personal </option>
+
+	<option value="4">Por unidad familiar</option>
+			<option value="5">Por racionalizacion</option>
+	<option value="6">Por situacion de emergencia</option>
+    </select></div>
+         						</div>
+                                </div>
+    							</br>
+                                </div>
+
+                                    </br>
+
+
 
 
 
@@ -107,6 +132,49 @@
 
 
 <!-- Dhamariz -->
+<table width="100%">
+
+               <tr>
+                   <td align="center" width="100%">
+
+                   </td>
+               </tr>
+               <!-- Barrera -->
+               <tr>
+                 <td>
+                   <div id="dPersonales" style="display:none">
+                     <form method="post" action="action" name="formin" onsubmit="return validar_1()">
+                      <br>
+                      <div  align="left">
+                 <div class="col-xs-2 col-md-4">
+                           <div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">Apellido Paterno:
+
+                          <input type="text" class="form-control" placeholder="Apellido Paterno"  name="txtapepat" id="txtapepat"></div>
+                           </div>
+
+                           <div class="col-xs-6 col-md-4">
+                           <div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">Apellido Materno:
+                           <input class="form-control" placeholder="Apellido Materno" type="text" name="txtapemat" id="txtapemat"></div>
+                           </div>
+
+                           <div class="col-xs-6 col-md-4">
+                           <div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">Nombres:
+                           <input class="form-control" placeholder="Nombres" type="text"  name="txtnombre" id="txtnombre"></div>
+                           </div>
+
+                           <BR><BR>
+
+                            <div class="col-xs-6 col-md-4">
+                           <div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">DNI:
+                           <input class="form-control" placeholder="Nombres" type="text"  name="txtnombre" id="txtDNI"></div>
+                           </div>
+                           </div>
+                     </form>
+                   </div>
+                 </td>
+               </tr>
+
+</table>
 
 
 
@@ -120,9 +188,6 @@
 
 
 
-
-
-<!-- Barrera -->
 
 
 
@@ -143,7 +208,32 @@
 
 
 <!-- Vasquez -->
+<tr>
+    <td>
+      <div id="tdocumento" style="display:none">
+          <form method="POST" action="/acredita/servlet/Ctrlwacre" name="formin2" onSubmit="return validar_2()" required>
+                <table>
+                      <input type="hidden" name="pg" value=1>
+                      <input type="hidden" name="ll" value="">
+                         <tr>
+                      <br>
+                         <td width="33%"  style="margin:10px;" align="left"> <b class="TituloTexto">Tipo de Documento:</b>
 
+                                    <select name="td">
+                                    <option value=0>
+                                    <option value=1>DNI
+                                    <option value=2>RUC
+                                    </select>
+                        </td>
+                        </tr>
+                      <br>
+              <tr>
+                  <td width="33%" align="center"> <br><b class="TituloTexto">N&uacute;mero de Documento </b>
+                  <input type="text" name="nd" size="25" title="Numero de Documento">
+                  </td>
+              </tr>
+            </div>
+          </td>
 
 
 
@@ -177,6 +267,18 @@
 
 
 
+<div class="row" align="left">
+<div class="col-xs-6 col-md-4">
+
+
+
+<div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">IV. DIRECCIÓN:</div></div></div></br>
+
+<div class="row" align="left">
+<div class="col-xs-6 col-md-2">
+<div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">TIPO DE VÍA:</div></div>
+<div class="col-xs-6 col-md-8">
+<div class="text-balck" style="font-family:Arial, Helvetica, sans-serif">
 
 
 
@@ -192,6 +294,17 @@
 
 <!-- Claudio -->
 
+<select id="cbservicio" name="cbservicio" class="form-control" required>
+                                    	<option name="rbtvia" value="">-- Seleccione via --                                        </option>
+                                    	<option name="rbtvia" value="1">Prolongacion</option>
+                                        <option name="rbtvia" value="2">Avenida</option>
+					<option name="rbtvia" value="3">Jiron </option>
+					<option name="rbtvia" value="4">calle</option>
+					<option name="rbtvia" value="5">Pasaje</option>
+					<option name="rbtvia" value="6">Carretera</option>
+					<option name="rbtvia" value="7">Urbanizacion</option>
+										 </select>
+</div></div></div><br>
 
 
 
