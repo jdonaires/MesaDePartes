@@ -148,7 +148,30 @@
 
 
 <!-- Vasquez -->
+<tr>
+    <td>
+      <div id="tdocumento" style="display:none">
+          <form method="POST" action="/acredita/servlet/Ctrlwacre" name="formin2" onSubmit="return validar_2()" required>
+                <table>
+                      <input type="hidden" name="pg" value=1>
+                      <input type="hidden" name="ll" value="">
+                         <tr>
+                      <br>
+                         <td width="33%"  style="margin:10px;" align="left"> <b class="TituloTexto">Tipo de Documento:</b>
 
+                                    <select name="td">
+                                    <option value=0>
+                                    <option value=1>DNI
+                                    <option value=2>RUC
+                                    </select>
+                        </td>
+                        </tr>
+                      <br>
+              <tr>
+                  <td width="33%" align="center"> <br><b class="TituloTexto">N&uacute;mero de Documento </b>
+                  <input type="text" name="nd" size="25" title="Numero de Documento">
+                  </td>
+              </tr>
 
 
 
