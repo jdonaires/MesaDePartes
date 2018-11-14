@@ -64,7 +64,16 @@ label{
 
 
 /* Chipana Daniel */
+#afr-ctextfooter{
+	margin:auto;
+	width:1000px;
+	text-align:center;
+	color:#FFF;
+	display:table;
+	height:80px;
+	position:relative;
 
+}
 
 
 
