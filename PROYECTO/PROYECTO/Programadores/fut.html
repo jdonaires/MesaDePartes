@@ -10,8 +10,11 @@
 
      function showLayer(){
         var id = document.getElementById("BuscarPor").value;
+             if (id == "dPersonales") {
+            document.getElementById("dPersonales").style.display = "block";
+            document.getElementById("tdocumento").style.display = "none";
+            self.document.formin.ap.focus();
 
-       
      }
      </script>
 </head>
