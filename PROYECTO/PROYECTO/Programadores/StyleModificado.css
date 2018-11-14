@@ -41,6 +41,15 @@ label{
 	#ulfile li{
 		margin-bottom:8px;
 	}
+	#afr-footer{
+		/*background:#9C99A0 url(../img/bg-f.png) repeat-x;
+		position:absolute;
+		bottom:0px;*/
+		height:150px;
+		width:100%;
+		background:#2D3235;
+		font-family:"Tahoma";
+		font-size:12px;
 
 
 
