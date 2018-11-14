@@ -262,24 +262,21 @@
 
 
 /* ASTOHUAMAN */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#afr-important b{
+  font-weight:700;
+  font-size:15px;
+}
+#afr-rm{
+  text-align:center;
+}
+#afr-overlay{
+  position:absolute;
+  background:#000;
+  opacity: 0.6;
+    filter: alpha(opacity=60);
+  z-index:10005;
+  width:100%;
+  height:100%;
+  display:none;
+}
 /* BARRERA */
