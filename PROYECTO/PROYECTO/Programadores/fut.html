@@ -23,9 +23,21 @@
              document.getElementById("dPersonales").style.display = "none";
              document.getElementById("tdocumento").style.display = "none";
          }
-
-
      }
+     function validar_2(){
+        document.formin2.ll.value = document.formin2.td.options[document.formin2.td.selectedIndex].text;
+        self.document.formin2.nd.value = change_symbols_ascci8(self.document.formin2.nd.value);
+        self.document.formin2.nd.value = self.document.formin2.nd.value.toUpperCase();
+        vvalidar=false;
+
+        if(self.document.formin2.td.value=="1"){
+            if (self.document.formin2.nd.value.length==8){
+                vvalidar=true;
+            }else{
+                alert("Ingrese, ocho(8) digitos !");
+                return vvalidar;
+            }
+        }
      </script>
 </head>
 <body>
