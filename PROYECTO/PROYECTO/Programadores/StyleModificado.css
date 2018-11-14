@@ -22,7 +22,34 @@ ul{
   padding:0;
 }
 /* Claudio */
-
+label{
+		display:inline-block;
+		margin-right:3px;
+	}
+	.afr-btn{
+		border:1px solid #999;
+		width:110px;
+		height:30px;
+		margin-bottom:8px;
+	}
+	.afr-btn:hover{
+		background:#CCC;
+	}
+	#ulfile{
+		margin:8px 0 8px 8px;
+	}
+	#ulfile li{
+		margin-bottom:8px;
+	}
+	#afr-footer{
+		/*background:#9C99A0 url(../img/bg-f.png) repeat-x;
+		position:absolute;
+		bottom:0px;*/
+		height:150px;
+		width:100%;
+		background:#2D3235;
+		font-family:"Tahoma";
+		font-size:12px;
 
 
 
