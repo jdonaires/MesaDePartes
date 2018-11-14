@@ -59,7 +59,22 @@
 
 
 
+#afr-ulmenu li.item1 a{
+  transition: background-color 0.5s ease;
+  background-color:none;
+}
+#afr-ulmenu li.item1:hover a{
+  background-color:#6b6b6d;
+}
 
+#afr-ulmenu li.item2 a{
+  transition: background-color 0.5s ease;
+  background-color:none;
+
+}
+#afr-ulmenu li.item2:hover a{
+  background-color:#3474B4;
+}
 
 
 
