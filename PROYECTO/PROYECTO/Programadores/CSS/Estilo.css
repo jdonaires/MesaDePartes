@@ -11,17 +11,18 @@
 
 
 /* Xiomara */
-
-
-
-
-
-
-
-
-
-
-
+body .acciones{
+	width: 100%;
+	text-align: left;
+	margin-left: 80px;
+}
+body .po{
+	margin-left: 80px;
+}
+table , td, th{
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
 /* Oviedo */
 td, th {
 	padding: 3px;
