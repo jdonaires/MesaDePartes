@@ -38,6 +38,19 @@
                 return vvalidar;
             }
         }
+        if (self.document.formin2.nd.value=="" || self.document.formin2.td.value=="0"){
+            vvalidar = false;
+            alert("No selecciono Tipo Doc. y/o Numero de Documento vacio");
+        }else{
+
+            if ( self.document.formin2.nd.value.length==11 ){
+                vvalidar = false;
+                alert("Ingrese, once(11) digitos");
+            }
+        }
+
+        return vvalidar;
+    }
      </script>
 </head>
 <body>
