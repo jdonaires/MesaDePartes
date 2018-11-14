@@ -75,7 +75,12 @@ label{
 
 }
 
-
+#afr-textf{
+		position:absolute;
+		color:#fff;
+		text-align:left;
+		top:40px;
+	}
 
 
 
