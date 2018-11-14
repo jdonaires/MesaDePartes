@@ -77,6 +77,22 @@
 }
 
 
+#afr-ulmenu li.item3 a{
+  transition: background-color 0.5s ease;
+  background-color:none;
+
+}
+#afr-ulmenu li.item3:hover a{
+  background-color:#E0050B;
+}
+
+#afr-ulmenu li.item1{
+  border-top:6px solid #6B6B6D;
+  background:url(../img/item1.png) center top no-repeat;
+}
+
+
+
 
 
 
