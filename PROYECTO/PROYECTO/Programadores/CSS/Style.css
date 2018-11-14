@@ -215,22 +215,32 @@
 
 
 /* AARON*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.afr-msg{
+		border:1px #18AB48 solid;
+		border-bottom:3px #18AB48 solid;
+		border-top:2px #18AB48 solid;
+		margin-bottom:5px;
+		background:#ADFCBF;
+		height:45px;
+		line-height:45px;
+		color:#030;
+		position:absolute;
+		width:100%;
+		z-index:1000000;
+	}
+	.afr-msgerror{
+		border:1px #FB180D solid;
+		border-bottom:3px #FB180D solid;
+		border-top:2px #FB180D solid;
+		margin-bottom:5px;
+		background: #FE7667;
+		height:45px;
+		line-height:45px;
+		color:#900;
+		position:absolute;
+		width:100%;
+		z-index:10000000;
+	}
 /* XIOMARA */
 
 
