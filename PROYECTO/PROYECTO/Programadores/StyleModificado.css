@@ -32,6 +32,15 @@ label{
 		height:30px;
 		margin-bottom:8px;
 	}
+	.afr-btn:hover{
+		background:#CCC;
+	}
+	#ulfile{
+		margin:8px 0 8px 8px;
+	}
+	#ulfile li{
+		margin-bottom:8px;
+	}
 
 
 
