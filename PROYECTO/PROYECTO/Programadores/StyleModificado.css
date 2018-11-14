@@ -1,21 +1,14 @@
 /* Fiorella Perez */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+html, body, div
+, h4{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
 /* Gutierrez Rafael */
-
 #afr-toph{
   color:#999;
   background: #eaeaea;
@@ -28,14 +21,6 @@ ul{
   margin:0;
   padding:0;
 }
-
-
-
-
-
-
-
-
 /* Claudio */
 
 
