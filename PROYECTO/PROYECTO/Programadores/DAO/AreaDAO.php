@@ -5,6 +5,10 @@ require_once('../BOL/Area.php');
 
 class AreaDAO
 {
+	private $pdo;
+
+	public function __CONSTRUCT()
+	{
 
 
 
