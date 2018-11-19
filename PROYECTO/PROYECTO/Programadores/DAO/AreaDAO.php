@@ -45,7 +45,14 @@ foreach($statement->fetchAll(PDO::FETCH_OBJ) as $r)
 
 				$result[] = $ar;
 			}
-
+      return $result;
+  		}
+  		catch(Exception $e)
+  		{
+  			die($e->getMessage());
+  		}
+  	}
+  }
 
 
 
