@@ -35,6 +35,30 @@ class folioDAO
 		{
 			$result = array();
 
+						$statement = $this->pdo->prepare("call up_buscar_folio(?)");
+						$statement->bindParam(1,$Folio->__GET('NroFolio'));
+						$statement->execute();
+
+						foreach($statement->fetchAll(PDO::FETCH_OBJ) as $r)
+						{
+							$fol = new Folio();
+
+							$fol->__SET('Id', $r->idfolio);
+							$fol->__SET('CantidadDocumento', $r->CantidadDocumento);
+							$fol->__SET('NroFolio', $r->NroFolio);
+
+
+							$result[] = $fol;
+						}
+
+						return $result;
+					}
+					catch(Exception $e)
+					{
+						die($e->getMessage());
+					}
+				}
+			}
 
 
 
