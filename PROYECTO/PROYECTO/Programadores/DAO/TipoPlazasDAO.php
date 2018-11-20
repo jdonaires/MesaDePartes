@@ -35,6 +35,27 @@ class TipoPlazasDAO
 
 
 
+/*Funcion Registrar*/
+public function Registrar(TipoPlazas $TipoPlazas)
+	{
+		try
+		{
+		$statement = $this->pdo->prepare("insert into tipoplazas values(?,?)");
+		$statement->bindParam(1,$TipoPlazas->__GET('Id'));
+    	$statement->bindParam(2,$TipoPlazas->__GET('Tipo'));
+    	$statement -> execute();
+
+		} catch (Exception $e)
+		{
+			die($e->getMessage());
+		}
+	}
+
+
+
+
+
+
 
 
 
