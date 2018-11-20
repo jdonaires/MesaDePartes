@@ -28,6 +28,10 @@ class AreaDAO
 	}
 }
 
+	public function Listar(Area $Area)
+	{
+		try
+		{
 
 
 
