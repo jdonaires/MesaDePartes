@@ -13,6 +13,15 @@ class AreaDAO
 			$this->pdo = $dba->get_connection();
 	}
 
+	public function Registrar(Area $Area)
+	{
+		try
+		{
+
+		
+
+		} catch (Exception $e)
+
 
 
 
