@@ -17,8 +17,10 @@ class AreaDAO
 	{
 		try
 		{
+			$statement = $this->pdo->prepare("insert into area values(?,?)");
+		  $statement->bindParam(1,$Area->__GET('Id'));
+   		$statement->bindParam(2,$Area->__GET('Area'));
 
-		
 
 		} catch (Exception $e)
 
