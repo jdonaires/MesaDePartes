@@ -53,6 +53,12 @@ public function Registrar(TipoPlazas $TipoPlazas)
 
 
 
+/*funcion listar*/
+public function Listar(TipoPlazas $TipoPlazas)
+	{
+		try
+		{
+			$result = array(); 
 
 
 
