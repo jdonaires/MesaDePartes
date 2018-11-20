@@ -9,6 +9,10 @@ class AreaDAO
 
 	public function __CONSTRUCT()
 	{
+			$dba = new DBAccess();
+			$this->pdo = $dba->get_connection();
+	}
+
 
 
 
