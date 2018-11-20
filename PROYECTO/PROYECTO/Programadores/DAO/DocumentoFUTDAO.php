@@ -28,5 +28,17 @@ class DocumentoFutDAO
 			die($e->getMessage());
 		}
 	}
+
+  public function Listar(DocumentoFut $DocumentoFut)
+	{
+		try
+		{
+
+		}
+		catch(Exception $e)
+		{
+			die($e->getMessage());
+		}
+	}
 }
 ?>
