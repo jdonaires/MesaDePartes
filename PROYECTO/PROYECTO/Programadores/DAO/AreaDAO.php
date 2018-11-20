@@ -5,31 +5,34 @@ require_once('../BOL/Area.php');
 
 class AreaDAO
 {
+	private $pdo;
 
+	public function __CONSTRUCT()
+	{
+			$dba = new DBAccess();
+			$this->pdo = $dba->get_connection();
+	}
 
+	public function Registrar(Area $Area)
+	{
+		try
+		{
+			$statement = $this->pdo->prepare("insert into area values(?,?)");
+		  $statement->bindParam(1,$Area->__GET('Id'));
+   		$statement->bindParam(2,$Area->__GET('Area'));
+      $statement -> execute();
 
+		 } catch (Exception $e)
+		 {
+		die($e->getMessage());
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	public function Listar(Area $Area)
+	{
+		try
+		{
+			$result = array();
 
 /*Chipana*/
 
