@@ -32,30 +32,7 @@ class AreaDAO
 	{
 		try
 		{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			$result = array();
 
 /*Chipana*/
 
