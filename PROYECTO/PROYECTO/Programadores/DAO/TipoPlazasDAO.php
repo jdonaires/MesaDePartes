@@ -58,22 +58,27 @@ public function Listar(TipoPlazas $TipoPlazas)
 	{
 		try
 		{
-			$result = array(); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			$result = array();
 /* Xiomara */
+$statement = $this->pdo->prepare("call up_buscar_TipoPlazas(?)");
+$statement->bindParam(1,$TipoPlazas->__GET('Tipo'));
+$statement->execute();
+
+foreach($statement->fetchAll(PDO::FETCH_OBJ) as $r)
+{
+	$tip = new TipoPlazas();
+
+	$tip->__SET('Id', $r->idtipoplazas);
+	$tip->__SET('Tipo', $r->Tipo);
+
+	$result[] = $tip;
+}
+
+return $result;
+}
+catch(Exception $e)
+{
+die($e->getMessage());
+}
+}
+}
