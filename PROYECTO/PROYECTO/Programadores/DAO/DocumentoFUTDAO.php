@@ -33,7 +33,7 @@ class DocumentoFutDAO
 	{
 		try
 		{
-
+					$result = array();
 		}
 		catch(Exception $e)
 		{
