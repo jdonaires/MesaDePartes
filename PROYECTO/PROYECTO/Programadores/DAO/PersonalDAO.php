@@ -53,3 +53,12 @@ class personalDAO
 
 						$result[] = $perl;
 					}
+					return $result;
+					}
+						catch(Exception $e)
+					{
+						die($e->getMessage());
+					}
+		  }
+}
+?>
