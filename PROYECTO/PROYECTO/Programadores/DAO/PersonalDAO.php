@@ -29,3 +29,27 @@ class personalDAO
 				die($e->getMessage());
 			}
 		}
+		public function Listar(Personal $personal)
+			{
+				try
+				{
+
+					$result = array();
+
+					$statement = $this->pdo->prepare("call up_buscar_personal(?)");
+					$statement->bindParam(1,$personal->__GET('Cargo'));
+					$statement->execute();
+
+					foreach($statement->fetchAll(PDO::FETCH_OBJ) as $r)
+					{
+						$perl = new Personal();
+
+						$perl->__SET('Id', $r->idcargo);
+						$perl->__SET('Cargo', $r->Cargo);
+						$perl->__SET('IdPersona', $r->IdPersona);
+						$perl->__SET('Usuario', $r->Usuario);
+						$perl->__SET('Contraseña', $r->Contraseña);
+						$perl->__SET('Estado', $r->Estado);
+
+						$result[] = $perl;
+					}
