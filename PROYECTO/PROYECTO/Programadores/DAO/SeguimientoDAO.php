@@ -34,6 +34,22 @@ class SeguimientoDAO
   }
 }
 
+public function Listar(Seguimiento $Seguimiento)
+	{
+		try
+		{
+			$result = array();
+
+			$statement = $this->pdo->prepare("call up_buscar_Seguimiento(?)");
+			$statement->bindParam(1,$Seguimiento->__GET('CodigoDoc'));
+			$statement->execute();
+			return $result;
+				}
+				catch(Exception $e)
+				{
+					die($e->getMessage());
+				}
+			}
 
 }
 ?>
