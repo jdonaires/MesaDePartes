@@ -43,6 +43,26 @@ public function Listar(Seguimiento $Seguimiento)
 			$statement = $this->pdo->prepare("call up_buscar_Seguimiento(?)");
 			$statement->bindParam(1,$Seguimiento->__GET('CodigoDoc'));
 			$statement->execute();
+
+
+			foreach($statement->fetchAll(PDO::FETCH_OBJ) as $r)
+			{
+				$Seg = new Seguimiento();
+
+				$Seg->__SET('Id', $r->Id);
+				$Seg->__SET('IdOrigen', $r->IdOrigen);
+				$Seg->__SET('IdDestino', $r->IdDestino);
+        $Seg->__SET('Estado', $r->Estado);
+        $Seg->__SET('Observacion', $r->Observacion);
+				$Seg->__SET('Recibido', $r->Recibido);
+				$Seg->__SET('CodigoDoc', $r->CodigoDoc);
+        $Seg->__SET('IdPersonal', $r->IdPersonal);
+
+				$result[] = $Seg;
+			}
+
+
+
 			return $result;
 				}
 				catch(Exception $e)
